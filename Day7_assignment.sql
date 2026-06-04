@@ -1,0 +1,30 @@
+--create table employees(
+--  emp_id int,
+--  emp_name varchar(10),
+--  dept varchar(10),
+--  city varchar(15),
+--  salary int
+--);
+--insert into employees values(1, 'lasya', 'it' ,'hyd', 10000);
+--insert into employees values(2, 'john', 'hr', 'blr', 20000);
+--insert into employees values(3, 'sri' , 'dev', 'kdp', 30000);
+--drop table employees;
+--alter table employees add joining_date Date;
+--select * from employees;
+--alter table employees rename column city to location;
+--select * from employee  employees delete joining_date;
+--alter table employees drop column joining_date;
+--select * from employees;
+--update employees set salary = 65000 where emp_name = 'john';
+--delete from employees where emp_id = 3;
+--select * from employees where dept = 'it' ;
+--select * from employees where location = 'blr' and salary > 50000;
+--select * from employees order by salary;
+--select * from employees total_salary order by dept;
+--select * from employees avg_salary order by dept;
+--select count(*) from employees group by dept;
+--select dept, count(*) from employees group by dept having count(*) >2;
+--select dept, avg(salary) from employees group by dept having avg(salary) > 2000;
+--select * from employees order by salary desc fetch first 3 rows only; 
+--select * from employee fetch first 2 rows only;
+--select distinct salary from employees order by salary desc offset 1 row fetch next 1 row only;
